@@ -13,6 +13,7 @@
     "pouchdb-adapter-memory": "^7.2.2",
     "pouchdb-debug": "^7.2.1",
     "rxdb": "^9.6.0",
-    "rxjs": "^6.6.3"
+    "rxjs": "^6.6.3",
+    "why-is-node-running": "^2.2.0"
   }
 }

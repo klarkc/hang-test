@@ -1,5 +1,6 @@
 const pouchdbDebug = require('pouchdb-debug');
 const { PouchDB, createRxDatabase, addRxPlugin } = require('rxdb');
+const { BroadcastChannel } = require('broadcast-channel');
 
 // debug all
 PouchDB.plugin(pouchdbDebug);
@@ -13,4 +14,7 @@ it('creates and destroy database', () => createRxDatabase({
   name: 'foo',
   adapter: 'memory',
   eventReduce: true,
-}).then((db) => db.destroy()));
+}).then((db) => {
+  db.destroy();
+  return new Promise(resolve => setTimeout(resolve, 1500));
+}));
