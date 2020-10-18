@@ -13,4 +13,9 @@ it('creates and destroy database', () => createRxDatabase({
   name: 'foo',
   adapter: 'memory',
   eventReduce: true,
-}).then((db) => db.destroy()));
+})
+  .then((db) => {
+    db.destroy();
+    return new Promise(resolve => setTimeout(resolve, 1500));
+  })  
+);
