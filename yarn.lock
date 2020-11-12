@@ -225,10 +225,10 @@
   dependencies:
     "@babel/helper-plugin-utils" "^7.8.0"
 
-"@babel/runtime@7.11.2", "@babel/runtime@^7.6.2", "@babel/runtime@^7.7.2":
-  version "7.11.2"
-  resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.11.2.tgz#f549c13c754cc40b87644b9fa9f09a6a95fe0736"
-  integrity sha512-TeWkU52so0mPtDcaCTxNBI/IHiz0pZgr8VEFqXFtZWpYD08ZB6FaSwVAS8MKRQAP3bYKiVjwysOJgMFY28o6Tw==
+"@babel/runtime@7.12.5":
+  version "7.12.5"
+  resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.12.5.tgz#410e7e487441e1b360c29be715d870d9b985882e"
+  integrity sha512-plcc+hbExy3McchJCEQG3knOsuh3HH+Prx1P6cLIkET/0dLuQDEnrT+s27Axgc9bqfsmNUNHfscgMUdBpC9xfg==
   dependencies:
     regenerator-runtime "^0.13.4"
 
@@ -236,6 +236,13 @@
   version "7.9.6"
   resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.9.6.tgz#a9102eb5cadedf3f31d08a9ecf294af7827ea29f"
   integrity sha512-64AF1xY3OAkFHqOb9s4jpgk1Mm5vDZ4L3acHvAml+53nO1XbXLuDodsVpO4OIUsmemlUHMxNdYMNJmsvOwLrvQ==
+  dependencies:
+    regenerator-runtime "^0.13.4"
+
+"@babel/runtime@^7.6.2", "@babel/runtime@^7.7.2":
+  version "7.11.2"
+  resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.11.2.tgz#f549c13c754cc40b87644b9fa9f09a6a95fe0736"
+  integrity sha512-TeWkU52so0mPtDcaCTxNBI/IHiz0pZgr8VEFqXFtZWpYD08ZB6FaSwVAS8MKRQAP3bYKiVjwysOJgMFY28o6Tw==
   dependencies:
     regenerator-runtime "^0.13.4"
 
@@ -544,10 +551,10 @@
   dependencies:
     "@types/node" "*"
 
-"@types/cors@2.8.7":
-  version "2.8.7"
-  resolved "https://registry.yarnpkg.com/@types/cors/-/cors-2.8.7.tgz#ab2f47f1cba93bce27dfd3639b006cc0e5600889"
-  integrity sha512-sOdDRU3oRS7LBNTIqwDkPJyq0lpHYcbMTt0TrjzsXbk/e37hcLTH6eZX7CdbDeN0yJJvzw9hFBZkbtCSbk/jAQ==
+"@types/cors@2.8.8":
+  version "2.8.8"
+  resolved "https://registry.yarnpkg.com/@types/cors/-/cors-2.8.8.tgz#317a8d8561995c60e35b9e0fcaa8d36660c98092"
+  integrity sha512-fO3gf3DxU2Trcbr75O7obVndW/X5k8rJNZkLXlQWStTHhP71PkRqjwPIEI0yMnJdg9R9OasjU+Bsr+Hr1xy/0w==
   dependencies:
     "@types/express" "*"
 
@@ -1094,10 +1101,10 @@ braces@^3.0.1:
   dependencies:
     fill-range "^7.0.1"
 
-broadcast-channel@3.1.0:
-  version "3.1.0"
-  resolved "https://registry.yarnpkg.com/broadcast-channel/-/broadcast-channel-3.1.0.tgz#b4a6970fc72c4d68fc859321a6af850e66cb2dfa"
-  integrity sha512-zrjTunJRva1aFW9UlLtoMnB05tu8hbb7qbv3PxXXGnxp3t9VA/KcTIwcC0+u7oLBdlXSnv0yy7pB+UemLjANyQ==
+broadcast-channel@3.3.0:
+  version "3.3.0"
+  resolved "https://registry.yarnpkg.com/broadcast-channel/-/broadcast-channel-3.3.0.tgz#5541bbec6b4e9ee03f4c5462a52b0bc5ecd0690c"
+  integrity sha512-mi0xKJxdHHMb/PqIGLybPlAHMqs/ShxXSylaVYVM20ViizXEbjaXAy9Q6YalUGX5FoAls0UBNaT8mX8LR259bA==
   dependencies:
     "@babel/runtime" "^7.7.2"
     detect-node "^2.0.4"
@@ -1516,10 +1523,10 @@ deepmerge@^4.2.2:
   resolved "https://registry.yarnpkg.com/deepmerge/-/deepmerge-4.2.2.tgz#44d2ea3679b8f4d4ffba33f03d865fc1e7bf4955"
   integrity sha512-FJ3UgI4gIl+PHZm53knsuSFpE+nESMr7M4v9QcgB7S63Kj/6WqMiFQJpBBYz1Pt+66bZpP3Q7Lye0Oo9MPKEdg==
 
-defekt@5.1.0:
-  version "5.1.0"
-  resolved "https://registry.yarnpkg.com/defekt/-/defekt-5.1.0.tgz#11ab752e13241d983a157c16f484889426297684"
-  integrity sha512-HxTr9DvB/tzzUI1+EybPi5jHHlz4Pe4WoEkf+lM7jf4uHDH/IuP/W+lO6gzYwgavp/Gn4QM5yGGAzMkX53v6fw==
+defekt@5.2.2:
+  version "5.2.2"
+  resolved "https://registry.yarnpkg.com/defekt/-/defekt-5.2.2.tgz#7878d503f7621762f7e60ae6be745d314cdf9590"
+  integrity sha512-CKEF6SGztSvdV3DY2hq2YLsgEPMxO/JmKTaKeDZerREv+yXT5uErVcJpJ+CoRwW9d3N8U6Gaz2w+ReXaVDQw8Q==
   dependencies:
     humanize-string "2.1.0"
 
@@ -2151,15 +2158,15 @@ get-caller-file@^2.0.1:
   resolved "https://registry.yarnpkg.com/get-caller-file/-/get-caller-file-2.0.5.tgz#4f94412a82db32f36e3b0b9741f8a97feb031f7e"
   integrity sha512-DyFP3BM/3YHTQOCUL/w0OZHR0lpKeGrxotcHWcqNEdnltqFwXVfhEBQ94eIo34AfQpo0rGki4cyIiftY06h2Fg==
 
-get-graphql-from-jsonschema@6.0.1:
-  version "6.0.1"
-  resolved "https://registry.yarnpkg.com/get-graphql-from-jsonschema/-/get-graphql-from-jsonschema-6.0.1.tgz#e9c7553af966c6f691079a0766b845225f25dc67"
-  integrity sha512-oY72KgGKA59k3t7soOcFTjZTFPErMPvQaYu/L9aXGFvqymfgklgXODp0LGRKLHNVDPBpJMRuDwtwLU1GTTAO4g==
+get-graphql-from-jsonschema@6.0.5:
+  version "6.0.5"
+  resolved "https://registry.yarnpkg.com/get-graphql-from-jsonschema/-/get-graphql-from-jsonschema-6.0.5.tgz#d40ac3c808613c20f521a2d175d023eba0902a8a"
+  integrity sha512-VacgCTHo8v/eQydG0n33emOOEY9s2g8CYoPDXVWU6KeWMtv5UvToj3Kjd0zsVsMfbo1ia/cxZF2j/wF0iDGOBg==
   dependencies:
     "@types/common-tags" "1.8.0"
     "@types/json-schema" "7.0.6"
     common-tags "1.8.0"
-    defekt "5.1.0"
+    defekt "5.2.2"
 
 get-package-type@^0.1.0:
   version "0.1.0"
@@ -3740,6 +3747,11 @@ object-path@0.11.4:
   resolved "https://registry.yarnpkg.com/object-path/-/object-path-0.11.4.tgz#370ae752fbf37de3ea70a861c23bba8915691949"
   integrity sha1-NwrnUvvzfePqcKhhwju6iRVpGUk=
 
+object-path@0.11.5:
+  version "0.11.5"
+  resolved "https://registry.yarnpkg.com/object-path/-/object-path-0.11.5.tgz#d4e3cf19601a5140a55a16ad712019a9c50b577a"
+  integrity sha512-jgSbThcoR/s+XumvGMTMf81QVBmah+/Q7K7YduKeKVWL7N111unR2d6pZZarSk6kY/caeNxUDyxOvMWyzoU2eg==
+
 object-visit@^1.0.0:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/object-visit/-/object-visit-1.0.1.tgz#f79c4493af0c5377b59fe39d395e41042dd045bb"
@@ -3922,6 +3934,17 @@ pouchdb-abstract-mapreduce@7.2.2:
     pouchdb-fetch "7.2.2"
     pouchdb-mapreduce-utils "7.2.2"
     pouchdb-md5 "7.2.2"
+    pouchdb-utils "7.2.2"
+
+pouchdb-adapter-http@7.2.2:
+  version "7.2.2"
+  resolved "https://registry.yarnpkg.com/pouchdb-adapter-http/-/pouchdb-adapter-http-7.2.2.tgz#7b04a247aae5db67af6ea8567cc93b2aca8e282f"
+  integrity sha512-6Z6umJq7b5sRXwDM3CLfHrGhJPMR02M5osUxkwH1PpqcTF0EXPJvX+PtzTjSPcXWfaK6kgH3zNrRKQDdpzjI9A==
+  dependencies:
+    argsarray "0.0.1"
+    pouchdb-binary-utils "7.2.2"
+    pouchdb-errors "7.2.2"
+    pouchdb-fetch "7.2.2"
     pouchdb-utils "7.2.2"
 
 pouchdb-adapter-leveldb-core@7.2.2:
@@ -4444,14 +4467,14 @@ rsvp@^4.8.4:
   resolved "https://registry.yarnpkg.com/rsvp/-/rsvp-4.8.5.tgz#c8f155311d167f68f21e168df71ec5b083113734"
   integrity sha512-nfMOlASu9OnRJo1mbEk2cz0D56a1MBNrJ7orjRZQG10XDyuvwksKbuXNp6qa+kbn839HwjwhBzhFmdsaEAfauA==
 
-rxdb@^9.6.0:
-  version "9.6.0"
-  resolved "https://registry.yarnpkg.com/rxdb/-/rxdb-9.6.0.tgz#1db0495ef0d6f3f914ec6cc3cd4f7fdd2aebdb18"
-  integrity sha512-oviYJKiqA03MO0qj3V4ajtMc81CP9f+asNA/AzV772i2aMRtGPEDBUIP+jLglm0gnQrWgUNPhAahgPCHW7bjYw==
+rxdb@9.9.0:
+  version "9.9.0"
+  resolved "https://registry.yarnpkg.com/rxdb/-/rxdb-9.9.0.tgz#1a82540ff5b225f33a408a8617255d2575b00980"
+  integrity sha512-58XKBGvMFrJX4UVCAwBlqlxGUDayu92QdUdzRYdI0sW9cYzikFgphwj2txzmFN4r6ZDVA+y/3juikGfz5s/jWA==
   dependencies:
-    "@babel/runtime" "7.11.2"
+    "@babel/runtime" "7.12.5"
     "@types/clone" "2.1.0"
-    "@types/cors" "2.8.7"
+    "@types/cors" "2.8.8"
     "@types/deep-equal" "1.0.1"
     "@types/express" "4.17.8"
     "@types/is-my-json-valid" "0.0.20"
@@ -4460,7 +4483,7 @@ rxdb@^9.6.0:
     "@types/pouchdb-find" "6.3.6"
     "@types/pouchdb-replication" "6.4.2"
     "@types/spark-md5" "3.0.2"
-    broadcast-channel "3.1.0"
+    broadcast-channel "3.3.0"
     clone "^2.1.2"
     cors "2.8.5"
     crypto-js "3.3.0"
@@ -4468,13 +4491,14 @@ rxdb@^9.6.0:
     deep-equal "^2.0.1"
     event-reduce-js "1.1.0"
     express "4.17.1"
-    get-graphql-from-jsonschema "6.0.1"
+    get-graphql-from-jsonschema "6.0.5"
     graphql-client "2.0.1"
     is-electron "2.2.0"
     is-my-json-valid "2.20.5"
     jsonschema-key-compression "1.2.0"
     modifyjs "0.3.1"
-    object-path "0.11.4"
+    object-path "0.11.5"
+    pouchdb-adapter-http "7.2.2"
     pouchdb-all-dbs "1.0.2"
     pouchdb-core "7.2.2"
     pouchdb-find "7.2.2"
@@ -4484,7 +4508,7 @@ rxdb@^9.6.0:
     spark-md5 "^3.0.1"
     url "^0.11.0"
     util "0.12.3"
-    z-schema "4.2.3"
+    z-schema "5.0.0"
 
 rxjs@^6.6.3:
   version "6.6.3"
@@ -5451,10 +5475,10 @@ yargs@^15.4.1:
     y18n "^4.0.0"
     yargs-parser "^18.1.2"
 
-z-schema@4.2.3:
-  version "4.2.3"
-  resolved "https://registry.yarnpkg.com/z-schema/-/z-schema-4.2.3.tgz#85f7eea7e6d4fe59a483462a98f511bd78fe9882"
-  integrity sha512-zkvK/9TC6p38IwcrbnT3ul9in1UX4cm1y/VZSs4GHKIiDCrlafc+YQBgQBUdDXLAoZHf2qvQ7gJJOo6yT1LH6A==
+z-schema@5.0.0:
+  version "5.0.0"
+  resolved "https://registry.yarnpkg.com/z-schema/-/z-schema-5.0.0.tgz#6a9585cffcb9259c45c572443bc1a383238de91e"
+  integrity sha512-58TxNEurHQEEgbrNbQnoUHXgh6tiplSvKb7D3o4K6KzICQk9vFyl8B0zycC/p3gW92qBZCmq5NJIhJODKrV7JQ==
   dependencies:
     lodash.get "^4.4.2"
     lodash.isequal "^4.5.0"
